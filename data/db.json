@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "eb2e",
+      "fname": "Mukhlisa",
+      "lname": "Saidaminova",
+      "username": "ID19338",
+      "password": "$_M5BXq@FVsjCni",
+      "gender": "female"
+    },
+    {
+      "id": "28df",
+      "fname": "Mukhlisa",
+      "lname": "Saidaminova",
+      "username": "ID19338",
+      "password": "$_M5BXq@FVsjCni",
+      "gender": "female"
+    }
+  ]
+}

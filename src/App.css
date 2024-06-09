@@ -1,0 +1,106 @@
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+form input{
+    padding: 10px 16px;
+    border: 1px solid #e0e0e0;
+}
+
+form button{
+    padding: 14px 20px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+.form__radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.form__radio-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form__radio-item label{
+    color: #606060;
+}
+
+.form__radio input{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e0e0e0;
+}
+
+.action-btn{
+    padding: 8px 18px;
+    margin-left: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.edit__cont {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 414px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #606060;
+}
+
+
+.edit__cont div label {
+    font-weight: 500;
+}
+
+.edit__cont input {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.edit__cont button{
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #1975d1;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
